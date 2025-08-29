@@ -26,4 +26,4 @@ server_build:
 gateway_docker_image: # V=1.0
 	docker build --build-arg="WORK_DIR=${WORK_DIR}" \
 				 --build-arg="GATEWAY_BINARY_FILE=${GATEWAY_BINARY_FILE}" \
-				 -t lamiamortis/gateway:${V} .
+				 -t 0x2a9/gateway:${V} .
