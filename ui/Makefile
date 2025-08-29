@@ -47,4 +47,4 @@ ui_docker_image: # V=1.0
 				 --build-arg="FRONTEND_SRC_DIR=${FRONTEND_SRC_DIR}" \
 				 --build-arg="NVM_VERSION=${NVM_VERSION}" \
 				 --build-arg="NODE_VERSION=${NODE_VERSION}" \
-				 -t lamiamortis/ui:${V} .
+				 -t 0x2a9/ui:${V} .

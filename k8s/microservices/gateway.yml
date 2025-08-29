@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gateway-service
-        image: "lamiamortis/gateway:1.0"
+        image: "0x2a9/gateway:1.0"
         env: 
           - name: CONFIG_PATH
             value: "/var/www/app"

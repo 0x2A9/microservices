@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: ui-service
-        image: "lamiamortis/ui:1.0"
+        image: "0x2a9/ui:1.0"
         env: 
           - name: NVM_DIR
             value: "/root/.nvm"
